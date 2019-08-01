@@ -1,0 +1,79 @@
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  align-content: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px; /* Should be removed. Only for demonstration */
+  background-color: #aaa;
+​
+}
+.column2 {
+  float: left;
+  align-content: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px; /* Should be removed. Only for demonstration */
+  background-color: #bbb;
+​
+}
+.column3 {
+  float: left;
+  align-content: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+  background-color: #aaa;
+​
+}
+.column4 {
+  float: left;
+  align-content: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+  background-color: #bbb;
+​
+}
+.column5 {
+  float: right;
+  align-content: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px; /* Should be removed. Only for demonstration */
+  background-color: #aaa;
+​
+}
+.column6 {
+  float: right;
+  align-content: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 350px; /* Should be removed. Only for demonstration */
+  background-color: #bbb;
+​
+}
+.column7 {
+  float: right;
+  align-content: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+  background-color: #aaa;
+​
+}
+.column8 {
+  float: right;
+  align-content: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+  background-color: #bbb;
+}
+​/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+​
+}
